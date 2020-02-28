@@ -1,18 +1,18 @@
 // Alert banner
 
-const alert = document.getElementById('alert')
+const alerts = document.getElementById('alert')
 
-alert.innerHTML = `
+alerts.innerHTML = `
   <div class="alert-banner">
     <p><strong> Alert</strong> You have <strong>5</strong> overdue tasks to complete</p>
     <p class="alert-banner-close">x </p>
   </div>`
 
 // closing alert banner
-alert.addEventListener('click', (e) => {
+alerts.addEventListener('click', (e) => {
   const element = e.target;
   if (element.classList.contains("alert-banner-close")) {
-    alert.style.display = "none"
+    alerts.style.display = "none"
   }
 });
 
