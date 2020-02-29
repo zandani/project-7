@@ -56,10 +56,9 @@ header {
   transition: .4s;
 }
 #icon-bell:hover {
-  opacity: 1;
-  background-color: #03d3fc;
+  opacity: 1;  
   transform: rotate(20deg);
-  border-radius: 50%;
+
 
 }
 .ball {
@@ -342,6 +341,7 @@ select {
    .traffic-nav li{
      margin: auto 10px;
    }
+
    .social-container{
      display:flex;
    }
@@ -349,6 +349,8 @@ select {
      margin: auto 10px;
      width: 100%;
    }
+
+
    .members {
      display: flex;
      align-items: center;
@@ -379,8 +381,27 @@ select {
      max-width: 95vw;
      margin-bottom: 50px;
    }
+   .widget-container-full {
+		border-bottom: 1px solid black;
+	}
    .widget-container-half {
      max-width: 50%;
-     flex-grow: 1;
-   }
+	  flex-grow: 1;
+	  border: 1px solid black;
+	}
+	.members {
+		border: 1px solid black;
+	}
+	.recent-activity-container {
+		border-left: 1px solid black;
+	}
+	.message {
+		border-right: 1px solid black;
+	}
+	.message-and-settings {
+		border: 1px solid black;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
 }
