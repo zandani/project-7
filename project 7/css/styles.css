@@ -53,10 +53,13 @@ header {
   width: 28px;
   height: 30px;
   margin-right: 15px;
+  transition: .4s;
 }
-#icon-bell hover {
+#icon-bell:hover {
   opacity: 1;
   background-color: #03d3fc;
+  transform: rotate(20deg);
+  border-radius: 50%;
 
 }
 .ball {
