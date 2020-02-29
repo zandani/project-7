@@ -54,6 +54,11 @@ header {
   height: 30px;
   margin-right: 15px;
 }
+#icon-bell hover {
+  opacity: 1;
+  background-color: #03d3fc;
+
+}
 .ball {
   position: absolute;
   top: 10px;
