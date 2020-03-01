@@ -56,7 +56,7 @@ header {
   transition: .4s;
 }
 #icon-bell:hover {
-  opacity: 1;  
+  opacity: 1;
   transform: rotate(20deg);
 
 
@@ -350,7 +350,6 @@ select {
      width: 100%;
    }
 
-
    .members {
      display: flex;
      align-items: center;
@@ -369,7 +368,6 @@ select {
      flex-direction: row;
 
    }
-
    .button {
      display:flex;
      flex-direction: row;
@@ -382,24 +380,24 @@ select {
      margin-bottom: 50px;
    }
    .widget-container-full {
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid lightgrey;
 	}
    .widget-container-half {
      max-width: 50%;
 	  flex-grow: 1;
-	  border: 1px solid black;
+	  border: 1px solid lightgrey;
 	}
 	.members {
-		border: 1px solid black;
+		border: 1px solid lightgrey;
 	}
 	.recent-activity-container {
-		border-left: 1px solid black;
+		border-left: 1px solid lightgrey;
 	}
 	.message {
-		border-right: 1px solid black;
+		border-right: 1px solid lightgrey;
 	}
 	.message-and-settings {
-		border: 1px solid black;
+		border: 1px solid lightgrey;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
