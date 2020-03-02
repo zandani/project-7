@@ -197,9 +197,10 @@ h3{
   padding: 15px;
   display: flex;
   align-items: center;
+  word-break: break-all;
   justify-content: baseline;
   flex-wrap: nowrap;
-  margin:auto;
+  margin: auto;
   width: 100%;
 }
 .members-text{
@@ -401,5 +402,4 @@ select {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-
 }
